@@ -13,8 +13,10 @@ $('img').on(`load`, function () {
 
 function pressIt (){
 $('typing').on(`keydown`, function (e) {
-  if (key.which === 71)
+  if (key.which === 71) {
   alert(`You pressed g dude!`)
+}
+})
 }
 
 function submitIt () {
