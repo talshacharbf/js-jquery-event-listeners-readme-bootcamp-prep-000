@@ -14,7 +14,6 @@ $('img').on(`load`, function () {
 function pressIt (){
   if (key.which === 71)
   alert(``)
-})
 }
 
 function submitIt () {
