@@ -1,16 +1,16 @@
 //define functions here
 
-function getIt () {
-  alert("Hey!")
-    return
-}
+ getIt ()
 
 
 $(document).ready(function(){
 
 // call functions here
 
-$('p').click("getIt", function(getIt){
-}
+function getIt () {
+$("p").on("click", function() {
+ +    alert("Hey!");
+ +  });
+
 
 });
