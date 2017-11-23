@@ -12,12 +12,14 @@ $('img').on(`load`, function () {
 }
 
 function pressIt (){
-$('form').on(`submit`, function () {
   if (key.which === 71)
   alert(``)
 })
 }
 
+function submitIt () {
+  $
+}
 
 
 
